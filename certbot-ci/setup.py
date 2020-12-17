@@ -19,6 +19,7 @@ install_requires = [
     'pyyaml',
     'requests',
     'six',
+    'typing;python_version<"3.5"'
 ]
 
 # Add pywin32 on Windows platforms to handle low-level system calls.
